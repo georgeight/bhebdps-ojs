@@ -15,8 +15,15 @@ body {
 
 .loader {
   width: 100px;
+  height: auto;
+  max-width: 100%;
   display: none;
 }
 .loader_active {
   display: block;
+}
+
+.item_error {
+  color: #c00;
+  padding: 10px 0;
 }
